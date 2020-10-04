@@ -71,7 +71,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution_t1582 {
     public int numSpecial(int[][] mat) {
         int[] flag_row = new int[mat.length];   // mat.length为行数，flag_row记录矩阵每一行0的数目
         int[] flag_col = new int[mat[0].length];// mat[0].length为列数,flag_col记录矩阵每一列0的数目

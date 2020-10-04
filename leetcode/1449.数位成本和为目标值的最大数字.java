@@ -81,7 +81,7 @@ import java.util.Set;
  */
 
 // @lc code=start
-class Solution {
+class Solution_t1449 {
     public String largestNumber(int[] cost, int target) {
         int[] nums_del_repeat = new int[cost.length];
         Set<Integer> set = new HashSet<Integer>();
