@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 /*
  * @lc app=leetcode.cn id=1449 lang=java
  *
@@ -82,6 +85,7 @@ class Solution {
     public String largestNumber(int[] cost, int target) {
         int[] nums_del_repeat = new int[cost.length];
         Set<Integer> set = new HashSet<Integer>();
+        int index = 0;
         for (int i = 0; i < cost.length; i++) {
             if (set.add(cost[i])) {
                 nums_del_repeat[index++] = cost[i];
