@@ -64,7 +64,7 @@ import java.util.List;
  */
 
 // @lc code=start
-class Solution {
+class Solution_t1560 {
     public List<Integer> mostVisited(int n, int[] rounds) {
 
         int[] rounds_copy = (int[]) Arrays.copyOf(rounds, rounds.length);
