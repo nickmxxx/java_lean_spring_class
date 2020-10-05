@@ -64,7 +64,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution_t1544 {
     public String makeGood(String s) {
                // 整体思路是将其转变ASCII码，大小写字母ASCII码差距为32
         // 定义一个flag，来判断是否已经完全排序
