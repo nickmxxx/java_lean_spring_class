@@ -47,7 +47,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution_t1539 {
     public int findKthPositive(int[] arr, int k) {
         int count = 0;
         int i = 1;
