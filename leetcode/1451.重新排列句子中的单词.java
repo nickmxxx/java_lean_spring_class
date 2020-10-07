@@ -64,7 +64,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution_t1451 {
     public String arrangeWords(String text) {
         String[] new_text = text.split(" ");
         String ans = "";

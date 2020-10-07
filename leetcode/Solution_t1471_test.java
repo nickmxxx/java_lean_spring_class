@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Solution_1471_test {
+public class Solution_t1471_test {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
         int k = 2;
