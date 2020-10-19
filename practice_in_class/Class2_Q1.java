@@ -6,7 +6,6 @@ public class Class2_Q1 {
         System.out.print("请输入一个数字： ");
         int input = scanner.nextInt();
         for (int i = 1; i <= input; i++) {
-
             for (int space = 1; space <= input - i; space++) {
                 System.out.print(' ');
             }
