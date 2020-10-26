@@ -1,3 +1,5 @@
+package practice_book_question;
+
 import java.util.Scanner;
 
 public class Practice2_6 {

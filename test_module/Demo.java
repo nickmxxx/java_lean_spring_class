@@ -1,3 +1,5 @@
+package test_module;
+
 public class Demo {
     public static void main(String[] args) {
         int a;

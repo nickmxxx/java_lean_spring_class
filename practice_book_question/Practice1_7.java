@@ -1,3 +1,5 @@
+package practice_book_question;
+
 public class Practice1_7 {
     public static void main(String[] args) {
         final int Times = 10;
